@@ -34,6 +34,13 @@ pip install -e .
 
 至https://chromedriver.chromium.org/，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
 
+## object_error
+
+如果出現pickle讀取objects的物件出現異常，或想重新把過去的訓練檔案消除，請執行
+```
+python clear_objects.py 
+```
+
 - Python 3.6 Environment with ML libraries installed (numpy,pandas,keras,tensorflow etc)
 - Selenium
 - OpenCV
