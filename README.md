@@ -1,35 +1,22 @@
 # Dino Run Tutorial
 
-A Deep Convolutional Neural Network to play Google Chrome's offline Dino Run game by learning action patterns from visual input using a model-less Reinforcement Learning Algorithm
-
-Accompanying code for Paperspace tutorial ["Build an AI to play Dino Run"](https://blog.paperspace.com/dino-run/)
-
+小恐龍訓練+Q-learnin實作，詳情請參考[人工智慧(RL系列) 完爆遊戲30天系列文章](https://ithelp.ithome.com.tw/users/20121110/ironman/2855)
 <br><br/>
 
 [![Video Sample](https://media.giphy.com/media/Ahh7X6z7jZSSl4veLf/giphy.gif)](http://www.youtube.com/watch?v=w1Rqf2oxcPU)
 
-# Installation 
-Start by cloning the repository
-<br>
-<br>
-`$ git clone https://github.com/leeivan1007/DinoRunTutorial.git`
-<br>
-You need to initialize the file system to save progress and resume from last step.<br/>
-Invoke `init_cache()` for the first time to do this <br/>
-
-
-Dependencies can be installed using pip install or conda install for Anaconda environment
-
-conda create -y resequet.yaml
+# 下載與環境建置
+```git clone https://github.com/leeivan1007/DinoRunTutorial.git
+cd DinoRunTutorial
+conda env create --file environment.yaml```
 
 ## baselines
-
+Open_AI reinforcement learning算法
+```
 git clone https://github.com/openai/baselines/tree/master/baselines
-
 cd baselines
-
 pip install -e .
-
+```
 ## chromedriver
 
 至https://chromedriver.chromium.org/，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
@@ -41,8 +28,6 @@ pip install -e .
 python clear_objects.py 
 ```
 
-- Python 3.6 Environment with ML libraries installed (numpy,pandas,keras,tensorflow etc)
-- Selenium
-- OpenCV
+## 原文參考
 
-<br/>
+Accompanying code for Paperspace tutorial ["Build an AI to play Dino Run"](https://blog.paperspace.com/dino-run/)
