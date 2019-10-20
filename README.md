@@ -7,6 +7,7 @@ python unit5_dino.py
 ```
 補充訓練過程隨時可按ctrl+c結束訓練，下次的訓練仍然會使用過去的模型與搜集的樣本。
 如在pickle發生object的error請參考下方的**object_error**
+
 [![Video Sample](https://media.giphy.com/media/Ahh7X6z7jZSSl4veLf/giphy.gif)](http://www.youtube.com/watch?v=w1Rqf2oxcPU)
 
 # 下載與環境建置
