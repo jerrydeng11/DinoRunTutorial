@@ -8,8 +8,8 @@
 # 下載與環境建置
 ```git clone https://github.com/leeivan1007/DinoRunTutorial.git
 cd DinoRunTutorial
-conda env create --file environment.yaml```
-
+conda env create --file environment.yaml
+```
 ## baselines
 Open_AI reinforcement learning算法
 ```
