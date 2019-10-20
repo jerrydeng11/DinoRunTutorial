@@ -12,7 +12,7 @@ Accompanying code for Paperspace tutorial ["Build an AI to play Dino Run"](https
 Start by cloning the repository
 <br>
 <br>
-`$ git clone https://github.com/Paperspace/DinoRunTutorial.git`
+`$ git clone https://github.com/leeivan1007/DinoRunTutorial.git`
 <br>
 You need to initialize the file system to save progress and resume from last step.<br/>
 Invoke `init_cache()` for the first time to do this <br/>
