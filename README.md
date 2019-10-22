@@ -14,6 +14,7 @@ python unit5_dino.py
 ```git clone https://github.com/leeivan1007/DinoRunTutorial.git
 cd DinoRunTutorial
 conda env create --file environment.yaml
+source activate dino_rl
 ```
 ## baselines安裝
 Open_AI reinforcement learning算法
@@ -24,7 +25,14 @@ pip install -e .
 ```
 ## chromedriver安裝
 
-至https://chromedriver.chromium.org/，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
+至[https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
+
+如果是照著專案的指示，那你的chromdriver路徑要放在專案的上一層
+root_home/
+         chromedriver
+         DinoRunTutorial
+
+或在py檔案裡面修改變數(chrome_driver_path)的路徑。
 
 ## object_error
 
