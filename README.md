@@ -27,7 +27,7 @@ pip install -e .
 
 至[https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
 
-如果是照著專案的指示，那你的chromdriver路徑要放在專案的上一層
+如果是照著專案的指示，那你的chromdriver路徑要放在專案資料夾的同一層
 ```
 root_home/
          chromedriver
