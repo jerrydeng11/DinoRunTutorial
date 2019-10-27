@@ -7,6 +7,7 @@
 python unit5_dino.py
 ```
 訓練過程隨時可按ctrl+c結束訓練，下次的訓練仍然會使用過去的模型與搜集的樣本。
+
 如在pickle發生object的error請參考下方的**object_error**。
 
 [![Video Sample](https://media.giphy.com/media/Ahh7X6z7jZSSl4veLf/giphy.gif)](http://www.youtube.com/watch?v=w1Rqf2oxcPU)
@@ -26,7 +27,9 @@ pip install -e .
 ```
 ## chromedriver安裝
 
-至[https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。下載檔案後解壓縮至指定路徑。
+至[https://chromedriver.chromium.org/](https://chromedriver.chromium.org/)，選定穩定版本(Latest stable release)，接著選擇指定的系統版本。
+
+下載檔案後解壓縮至指定路徑。
 
 如果是照著專案的指示，那你的chromdriver路徑要放在專案資料夾的同一層。
 ```
