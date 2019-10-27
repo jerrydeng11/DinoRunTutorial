@@ -2,10 +2,8 @@
 
 小恐龍訓練+Q-learnin實作，詳情請參考[人工智慧(RL系列) 完爆遊戲30天系列文章](https://ithelp.ithome.com.tw/users/20121110/ironman/2855)
 
-想直接嘗試小恐龍訓練，請完成下面[下載與環境建置](https://github.com/leeivan1007/DinoRunTutorial#%E4%B8%8B%E8%BC%89%E8%88%87%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE)、[baselines安裝](https://github.com/leeivan1007/DinoRunTutorial#baselines%E5%AE%89%E8%A3%9D)、[chromedriver安裝](https://github.com/leeivan1007/DinoRunTutorial#chromedriver%E5%AE%89%E8%A3%9D)後直接執行
-```
-python unit5_dino.py
-```
+想直接嘗試小恐龍訓練，請完成下面[下載與環境建置](https://github.com/leeivan1007/DinoRunTutorial#%E4%B8%8B%E8%BC%89%E8%88%87%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE)、[baselines安裝](https://github.com/leeivan1007/DinoRunTutorial#baselines%E5%AE%89%E8%A3%9D)、[chromedriver安裝](https://github.com/leeivan1007/DinoRunTutorial#chromedriver%E5%AE%89%E8%A3%9D)、[執行訓練&預測](https://github.com/leeivan1007/DinoRunTutorial#執行訓練&預測)。
+
 訓練過程隨時可按ctrl+c結束訓練，下次的訓練仍然會使用過去的模型與搜集的樣本。
 
 如在pickle發生object的error請參考下方的**object_error**。
@@ -13,7 +11,8 @@ python unit5_dino.py
 [![Video Sample](https://media.giphy.com/media/Ahh7X6z7jZSSl4veLf/giphy.gif)](http://www.youtube.com/watch?v=w1Rqf2oxcPU)
 
 # 下載與環境建置
-```git clone https://github.com/leeivan1007/DinoRunTutorial.git
+```
+git clone https://github.com/leeivan1007/DinoRunTutorial.git
 cd DinoRunTutorial
 conda env create --file environment.yaml
 source activate dino_rl
@@ -21,7 +20,7 @@ source activate dino_rl
 ## baselines安裝
 Open_AI reinforcement learning算法
 ```
-git clone https://github.com/openai/baselines/tree/master/baselines
+git clone hhttps://github.com/openai/baselines.git
 cd baselines
 pip install -e .
 ```
@@ -38,6 +37,12 @@ root_home/
          DinoRunTutorial
 ```
 或在py檔案裡面修改變數(chrome_driver_path)的路徑。
+
+## 執行訓練&預測
+在邊跑小恐龍時候，主程序會定期的訓練網路
+```
+python unit5_dino.py
+```
 
 ## object_error
 
