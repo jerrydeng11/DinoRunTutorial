@@ -2,7 +2,7 @@
 
 小恐龍訓練+Q-learnin實作，詳情請參考[人工智慧(RL系列) 完爆遊戲30天系列文章](https://ithelp.ithome.com.tw/users/20121110/ironman/2855)
 
-想直接嘗試小恐龍訓練，請完成下面[下載與環境建置](https://github.com/leeivan1007/DinoRunTutorial#%E4%B8%8B%E8%BC%89%E8%88%87%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE)、[baselines安裝](https://github.com/leeivan1007/DinoRunTutorial#baselines%E5%AE%89%E8%A3%9D)、[chromedriver安裝](https://github.com/leeivan1007/DinoRunTutorial#chromedriver%E5%AE%89%E8%A3%9D)、[執行訓練&預測](https://github.com/leeivan1007/DinoRunTutorial#執行訓練&預測)。
+想直接嘗試小恐龍訓練，請完成下面[下載與環境建置](https://github.com/leeivan1007/DinoRunTutorial#%E4%B8%8B%E8%BC%89%E8%88%87%E7%92%B0%E5%A2%83%E5%BB%BA%E7%BD%AE)、[baselines安裝](https://github.com/leeivan1007/DinoRunTutorial#baselines%E5%AE%89%E8%A3%9D)、[chromedriver安裝](https://github.com/leeivan1007/DinoRunTutorial#chromedriver%E5%AE%89%E8%A3%9D)、[執行訓練&預測](https://github.com/leeivan1007/DinoRunTutorial#%E5%9F%B7%E8%A1%8C%E8%A8%93%E7%B7%B4%E9%A0%90%E6%B8%AC)。
 
 訓練過程隨時可按ctrl+c結束訓練，下次的訓練仍然會使用過去的模型與搜集的樣本。
 
